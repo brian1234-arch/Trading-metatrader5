@@ -478,9 +478,10 @@ class EMATradingBot:
 if __name__ == "__main__":
     print("Starting EMA Trading Bot for Forex Symbols...")
     bot = EMATradingBot(
-        account_number=526136,
-        password="Emilosano@60",
-        server="EGMSecurities-Demo",
+        account_number=please type your account number,
+        password="Please type your password",
+        server="Please type your account server",
         initial_balance=10000
     )
+
     bot.run()
